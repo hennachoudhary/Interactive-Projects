@@ -1,0 +1,77 @@
+/* CSS file */
+
+body {
+  background-color: #C0FEE1;
+  color: #0B5633;
+}
+
+/* Page elements within this block, margin size and content width */
+main {
+  width: 70%;
+  margin: 0 auto; 
+}
+
+/* Centered title */
+header {
+  text-align: center;
+}
+
+/* Aligned sections */
+section {
+  clear: both;
+}
+
+/* Text will appear on the righthand side*/
+article {
+  float: right;
+  width: 79%;
+}
+
+/* Image icons will appear on the left column */
+aside {
+  float: left;
+  width: 20%;
+}
+
+/* Headline styles */
+h1 {
+  font-family: Georgia;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 56px;
+}
+
+/* Subhead styles */
+h2 {
+  font-family: Georgia;
+  font-style: italic;
+  font-size: 18px;
+  color: #0B5633;
+}
+
+/* Article headline styles */
+h3 {
+  font-family: Georgia;
+  padding: 0 18px;
+}
+
+/* Footer font */
+h4 {
+  font-family: Georgia;
+  font-style: italic;
+}
+
+/* Text styles for all paragraphs */
+p {
+  color: #0B5633;
+  font-size: 18px;
+  font-family: Georgia;
+  vertical-align: top;
+  padding: 0 20px;
+}
+
+/* Footer alignment */
+footer {
+  clear: both;
+  text-align: center;
+}
