@@ -1,7 +1,7 @@
 /* CSS file */
 
 body {
-  background-color: #FFA694;
+  background-color: #FFBDB0;
   color: #B83E1D;
 }
 
@@ -16,16 +16,6 @@ header {
   text-align: center;
 }
 
-/* Centered sections */
-section {
-  text-align: center;
-}
-
-/* Chart and Text will appear in the center*/
-article {
-  text-align: center;
-  width: 70%;
-}
 
 /* Everything centered*/
 aside {
