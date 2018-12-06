@@ -36,15 +36,45 @@
     <br>
 
     <hr>
-<p>Overall, the total number of intimate partner homicides within the city increased by twelve from 2015 to 2016, with the greatest number of victims falling within the age range of 25-29.  The Fatality Review Committee discovered a trend in relation to socioeconomic status of city neighborhoods and the number of recorded intimate partner homicides.  Economically disadvantaged neighborhoods had a greater number of intimate partner homicide victims based on community district indicators which included the percentage of individuals living below the poverty level, the percentage of residents age 25 and older who have not graduated high school, median household income, and the percentage of the labor force that is unemployed.<br>
+<p>Overall, the total number of intimate partner homicides within the city increased by twelve from 2015 to 2016, with the greatest number of victims falling within the age range of 25-29.  The Fatality Review Committee discovered a trend in relation to socioeconomic status of city neighborhoods and the number of recorded intimate partner homicides.  Economically disadvantaged neighborhoods had a greater number of intimate partner homicide victims based on indicators which included the percentage of individuals living below the poverty level, the percentage of residents age 25 and older who have not graduated high school, median household income, and the percentage of the labor force that is unemployed.<br>
 <br>According to Data USA, in Queens, the median recorded income grew from $60,422 to $62,207 from 2015 to 2016 with this 2.95% increase placing the borough on a higher socioeconomic level.  During these years, the borough also experienced a decrease in population as people migrated away and the population dropped from 2.34 million to 2.33 million.  These factors of median income increasing and a population drop may have contributed to the decrease in intimate partner homicides in Queens.</p>
 
-</p></center>
+</center><section><hr></section>
+  <section><br>
+    <center>
+<section>
+<br>
 
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset='utf-8' />
+  <title>Display a map</title>
+  <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+  <script src='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.js'></script>
+  <link href='https://api.tiles.mapbox.com/mapbox-gl-js/v0.49.0/mapbox-gl.css' rel='stylesheet' />
+  <style>
+    body { margin:0; padding:0; }
+    #map { position:absolute; top:0; bottom:0; width:100%; }
+  </style>
+</head>
+<body>
 
+<div id='map'></div>
+<script>
+mapboxgl.accessToken = 'pk.eyJ1IjoiaGVubmFjaG91ZGhhcnkiLCJhIjoiY2pveXd3cnBuMm53NDNrbW85OTc5bXV3aCJ9.fB4deBTEoit1nkXT5LeVDg';
+const map = new mapboxgl.Map({
+  container: 'map',
+  style: 'mapbox://styles/hennachoudhary/cjpcx1dib387m2so8uo8sugl9',
+  center: [-71.020000, 42.362400],
+  zoom: 10.0
+});
+</script>
 
- 
+</body>
+</html>
 
+<br> <br>
   <!-- Footer (Copyrighted to me!)-->
   <footer>
     <h4>&copy; Copyright 2018 Henna Choudhary</h4>
