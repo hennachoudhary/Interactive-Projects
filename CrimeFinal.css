@@ -2,7 +2,7 @@
 
 body {
   background-color: #999999;
-  color: #585858;
+  color: #373737;
 }
 
 
@@ -28,7 +28,7 @@ h1 {
   font-family: Georgia;
   font-style: bold;
   font-size: 75px;
-  color: #585858;
+  color: #373737;
 }
 
 /* Subhead styles */
@@ -51,8 +51,9 @@ h4 {
 }
 
 /* Text styles for all paragraphs */
+
 p {
-  color: #585858;
+  color: #5373737;
   font-size: 18px;
   font-family: Georgia;
   vertical-align: top;
