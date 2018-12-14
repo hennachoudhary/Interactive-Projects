@@ -1,0 +1,66 @@
+/* CSS file */
+
+body {
+  background-color: #999999;
+  color: #585858;
+}
+
+
+main {
+  width: 70%;
+  margin: 0 auto; 
+}
+
+/* Centered title */
+header {
+  text-align: center;
+}
+
+
+/* Everything centered*/
+aside {
+  text-align: center;
+  width: 70%;
+}
+
+/* Headline styles */
+h1 {
+  font-family: Georgia;
+  font-style: bold;
+  font-size: 75px;
+  color: #585858;
+}
+
+/* Subhead styles */
+h2 {
+  font-family: Georgia;
+  font-style: italic;
+  font-size: 30px;
+  color: #F5DEDE;
+
+/* Article headline styles */
+h3 {
+  font-family: Georgia;
+  padding: 28px;
+}
+
+/* Footer font */
+h4 {
+  font-family: Georgia;
+  font-style: italic;
+}
+
+/* Text styles for all paragraphs */
+p {
+  color: #585858;
+  font-size: 18px;
+  font-family: Georgia;
+  vertical-align: top;
+  padding: 0 18px;
+}
+
+/* Footer alignment */
+footer {
+  clear: both;
+  text-align: center;
+}
